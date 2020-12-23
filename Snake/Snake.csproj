@@ -56,6 +56,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Apple.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="Head.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -119,6 +122,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\phead.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
